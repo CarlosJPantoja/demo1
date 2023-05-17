@@ -13,7 +13,6 @@ import { getEntities } from './location.reducer';
 export const Location = () => {
   const dispatch = useAppDispatch();
 
-  const location = useLocation();
   const navigate = useNavigate();
 
   const locationList = useAppSelector(state => state.location.entities);

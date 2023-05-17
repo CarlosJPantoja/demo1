@@ -172,10 +172,10 @@ describe('Authentication reducer tests', () => {
         {
           type: setLocale.pending.type,
         },
-        updateLocale('en'),
+        updateLocale('es'),
         {
           type: setLocale.fulfilled.type,
-          payload: 'en',
+          payload: 'es',
         },
       ];
       await store.dispatch(getSession());
